@@ -21,9 +21,13 @@
 		}
 		
 		#content {
-
+			display: flex;
+			flex-direction: row;
+			padding-top: 3px;
 		}
-		
+		nav{
+			margin-right: 10px;
+		}
 		nav li {
 			display: inline-block;
 			margin-top: 10px;
@@ -40,24 +44,25 @@
 		main{
 			border: 1px black solid;
 			background-color: rgba(200,200,255,0.3);
-			width: 690px;
+			/*width: 690px;*/
 			margin-left: 10px;
 			height: 410px;
-			margin-top: 20px;
+			/*margin-top: 20px;*/
 		}
 		
 		aside{
 			border: 1px black solid;
 			background-color: rgba(200,255,200,0.3);
-			width: 310px;
+			width: 316px;
 			height: 410px;
-			margin-left: 700px;
-			margin-top: -412px;
+			/*margin-left: 700px;*/
+			/*margin-top: -412px;*/
 		}
 		body article {
 			background-color: rgba(200,200,200,0.6);
-			width: 670px;
+			width: 660px;
 			margin-left: 10px;
+			margin-right: 10px;
 
 
 		}
